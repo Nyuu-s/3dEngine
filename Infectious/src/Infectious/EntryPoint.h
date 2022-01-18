@@ -6,7 +6,11 @@
 extern Infectious::Application* CreateApplication();
 
 int main(int argc, char** argv) {
-	printf("Infection spreading...");
+
+	Infectious::Log::Init();
+	INF_CORE_TRACE("INITIALIZED LOGGING SYSTEME");
+	INF_ERROR("welcome");
+
 	auto app = Infectious::CreateApplication();
 	app->Run();
 	delete app;
