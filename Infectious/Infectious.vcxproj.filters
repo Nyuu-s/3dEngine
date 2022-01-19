@@ -19,6 +19,10 @@
     <ClInclude Include="src\Infectious\Log.h">
       <Filter>Infectious</Filter>
     </ClInclude>
+    <ClInclude Include="src\Infectious\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Infectious\Events\Event.h" />
+    <ClInclude Include="src\Infectious\Events\KeyEvent.h" />
+    <ClInclude Include="src\Infectious\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Infectious\Application.cpp">

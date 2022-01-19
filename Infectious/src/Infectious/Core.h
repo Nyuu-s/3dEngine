@@ -10,3 +10,5 @@
 	#error Infectious only support windows
 
 #endif // INF_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)
